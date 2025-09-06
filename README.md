@@ -11,4 +11,4 @@ The gun system should be able to handle several thousand bullets per second (I o
 
 Both the gun system and enemy system are also made with a base class I created to automate creation of classes which works universally.
 
-All of the code minus the item giver was exclusively created by me. The item giver was created by the person who manages O:RL
+All of the code minus the item giver and some of the math on the pathfinding for the enemies was exclusively created by me. Those were created by the person who manages O:RL at an earlier date before we started on this properly so he just had me reuse them.
