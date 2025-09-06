@@ -7,7 +7,7 @@ This features OOP based gun and enemy creation systems seperated on client and s
 
 The enemy system handles 250 enemies without any performance loss and can handle up to a thousand on higher performing computers.
 
-The gun system should be able to handle several thousand bullets per second (I only had issues starting up to 20k+ but my computer is on the higher end so performance may vary)
+The gun system should be able to handle several thousand bullets per second (I only had issues starting up to 20k+ but my computer is on the higher end so performance may vary). It has a small error with false positives when checking the speed the gun fires and occasionally when stopping the game has an error around missing the player which will be fixed at a later date.
 
 Both the gun system and enemy system are also made with a base class I created to automate creation of classes which works universally.
 
